@@ -7,4 +7,7 @@ main:
 	li a7, 4
 	la a0, str
 	ecall
-	ret
+
+exit:
+	li a7, 10
+	ecall

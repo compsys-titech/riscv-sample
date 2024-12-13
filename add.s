@@ -7,7 +7,6 @@ main:
 	li a7, 1
 	ecall
 
-	j exit
 exit:
 	li a7, 10
 	ecall

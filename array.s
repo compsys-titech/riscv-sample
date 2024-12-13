@@ -20,4 +20,6 @@ main:
 	lw a0, (t0)
 	ecall
 
-	ret
+exit:
+	li a7, 10
+	ecall
