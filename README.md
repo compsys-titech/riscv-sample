@@ -7,7 +7,7 @@ RISC-V命令の一覧はT2SCHOLAの資料を参照してください
 
 ## RISC-Vシミュレータ RARS
 
-[RARS (RISC-V Assembler and Runtime Simulator)](https://github.com/TheThirdOne/rars) はJavaで作成されたRISC-Vシミュレータ  
+[RARS (RISC-V Assembler and Runtime Simulator)](https://github.com/TheThirdOne/rars) はJavaで作成されたRISC-Vシミュレータ
 
 ### インストール
 
@@ -21,8 +21,7 @@ java --version
 
 #### ダウンロード
 
-以下のurlからファイルをダウンロード
-
+以下のurlからファイルをダウンロード  
 https://github.com/TheThirdOne/rars/releases/download/v1.6/rars1_6.jar
 
 
@@ -36,6 +35,10 @@ java -jar rars1_6.jar
 
 
 ### 使い方
+
+> [!NOTE]
+> Settings > "Initialize Program Counter to global 'main' if defined" をチェック
+
 
 ![Alt text](images/rars_screen.png)
 

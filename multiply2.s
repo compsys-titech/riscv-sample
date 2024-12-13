@@ -5,6 +5,7 @@ NEWLINE:
 	.string "\n"
 
 	.text
+	.global main
 main:
 	li a7, 4
 	la a0, QUESTION

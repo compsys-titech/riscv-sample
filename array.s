@@ -3,6 +3,7 @@ A:
 	.word 1 2 3
 
 	.text
+	.global main
 main:
 	li a7, 1
 
