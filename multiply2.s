@@ -23,4 +23,6 @@ main:
 	la a0, NEWLINE
 	ecall
 
-	jr ra
+exit:
+	li a7, 10
+	ecall

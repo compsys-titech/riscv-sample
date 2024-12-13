@@ -20,4 +20,4 @@ main:
 	lw a0, (t0)
 	ecall
 
-	jr ra
+	ret

@@ -6,5 +6,8 @@ main:
 	add a0, t0, t1
 	li a7, 1
 	ecall
-	jr ra
 
+	j exit
+exit:
+	li a7, 10
+	ecall
